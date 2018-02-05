@@ -5,3 +5,6 @@
 str = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
 #空白でスライスしていって、文字の数字を確定
 #for文で回して、len()で文字数を取得する。それらをリストに格納していく
+
+s = str.find(' ')
+print(s)#これは開始位置がわかるだけ
